@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2019-05-31</Date>
+  <Beta>False</Beta>
+  <Category>Download</Category>
+  <Name>PlexMediaServer</Name>
+  <Project>https://plex.tv/</Project>
+  <Changes>
+- C1tas Initial Release
+  </Changes>
+  <Overview>
+    The flexget download rss
+  </Overview>
+  <Description>
+  The c1tas custom flexget download server
+  </Description>
+  <Registry>https://hub.docker.com/r/c1tas/flexget</Registry>
+  <GitHub>https://github.com/c1tas</GitHub>
+  <Repository>c1tas/flexget</Repository>
+  <Support>https://github.com/c1tas</Support>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5050</HostPort>
+        <ContainerPort>5050</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>WEB_PASSWD`</Name>
+      <Value>Tower</Value>
+    </Variable>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/c1tas-flexget</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/c1tas-flexget</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:5050]/index.html</WebUI>
+  <Banner></Banner>
+  <Icon>https://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>
+</Containers>
