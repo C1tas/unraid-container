@@ -32,8 +32,12 @@
   </Networking>
   <Environment>
     <Variable>
-      <Name>WEB_PASSWD`</Name>
-      <Value>Tower</Value>
+      <Name>WEB_PASSWD</Name>
+      <Value>lulu501522</Value>
+    </Variable>
+    <Variable>
+      <Name>FLEXGET_LOG_LEVEL</Name>
+      <Value>debug</Value>
     </Variable>
   <Environment/>
   <Data>
@@ -43,12 +47,12 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/appdata/c1tas-flexget</HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <HostDir>/mnt/user/download/</HostDir>
+      <ContainerDir>/downloads</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:5050]/index.html</WebUI>
   <Banner></Banner>
-  <Icon>https://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>
+  <Icon>https://avatars2.githubusercontent.com/u/17483320?s=400</Icon>
 </Containers>
