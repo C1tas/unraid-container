@@ -56,4 +56,5 @@
   <WebUI>http://[IP]:[PORT:5050]/index.html</WebUI>
   <Banner></Banner>
   <Icon>https://avatars2.githubusercontent.com/u/17483320?s=400</Icon>
+  <ExtraParams></ExtraParams>
 </Containers>
