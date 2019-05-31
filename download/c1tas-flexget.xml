@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
+  <TemplateURL>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/pycharm.xml</TemplateURL>
   <Date>2019-05-31</Date>
   <Beta>False</Beta>
-  <Category>Download</Category>
+  <Category>Download:</Category>
   <Name>PlexMediaServer</Name>
-  <Project>https://plex.tv/</Project>
+  <Project>https://flexget.tv/</Project>
   <Changes>
-- C1tas Initial Release
+    - C1tas Initial Release
   </Changes>
   <Overview>
     The flexget download rss
   </Overview>
   <Description>
-  The c1tas custom flexget download server
+    The c1tas custom flexget download server
   </Description>
   <Registry>https://hub.docker.com/r/c1tas/flexget</Registry>
   <GitHub>https://github.com/c1tas</GitHub>
