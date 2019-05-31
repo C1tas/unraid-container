@@ -40,7 +40,7 @@
       <Name>FLEXGET_LOG_LEVEL</Name>
       <Value>debug</Value>
     </Variable>
-  <Environment/>
+  </Environment>
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/c1tas-flexget</HostDir>
